@@ -87,4 +87,40 @@ INSERT INTO Produtos (Nome,Preco)
 values("Cabos",0.50);
 INSERT INTO Produtos (Nome,Preco)
 values("adaptador",2.00);
+INSERT INTO vendas (Data)
+value('23-01-5');
+INSERT INTO vendas (Data)
+value('23-01-5');
+INSERT INTO vendas (Data)
+value('23-01-6');
+INSERT INTO vendas (Data)
+value('23-01-8');
+INSERT INTO vendas (Data)
+value('23-01-8');
+INSERT INTO vendas (Data)
+value('23-01-8');
+INSERT INTO vendas (Data)
+value('23-01-8');
+INSERT INTO vendas (Data)
+value('23-01-8');
+INSERT INTO lojas_vendas (Fk_loja,FK_venda)
+value(1,1);
+INSERT INTO lojas_vendas (Fk_loja,FK_venda)
+value(1,2);
+INSERT INTO lojas_vendas (Fk_loja,FK_venda)
+value(3,5);
+INSERT INTO produtos_fornecedores (Fk_Produto,Fk_Fornecedor)
+value(1,1);
+INSERT INTO produtos_fornecedores (Fk_Produto,Fk_Fornecedor)
+value(2,2);
+INSERT INTO produtos_loja (Fk_Produto,FK_loja)
+value(1,2);
+INSERT INTO produtos_loja (Fk_Produto,FK_loja)
+value(4,2);
+INSERT INTO produtos_loja (Fk_Produto,FK_loja)
+value(5,2);
+INSERT INTO produtos_vendas (Fk_Produto,FK_venda,Quantidade)
+value(1,1,100);
+INSERT INTO produtos_vendas (Fk_Produto,FK_venda,Quantidade)
+value(4,2,500)
 /* FEITO POR ARYANNA E VINICIUS*/
